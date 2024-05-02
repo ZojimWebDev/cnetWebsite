@@ -1,0 +1,164 @@
+header,main{
+    background-color: black;
+}
+
+
+header{
+   height: 190px; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-section{
+    
+    height: 270px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+#text-atlas{
+    margin-left: 25px;
+}
+.box-yellow{
+    flex-basis: 15%;
+    height: 550px;
+   position: relative;
+   z-index: 60;
+   background-color: #fcf95a;
+   padding: 1.5rem 1rem;
+   border-radius: 0 1rem 1rem 0;
+   margin-right: 20px;
+   
+   
+   
+}
+.yellow-text p{ border-bottom:  1px dashed black;
+            padding-bottom: 20px;
+            margin-top: 5px;
+}
+
+.yellow-text{
+    margin-top: -15px;
+    
+    
+}
+.image-info{
+    display: flex;
+    
+    flex-basis: 100%;
+}
+
+.image{
+   
+    display: flex;
+    flex-basis: 60%;
+   
+}
+
+.info{
+    flex-basis: 40%;
+    color: white;
+    text-align: justify;
+    background-color: orangered;
+    color: black;
+    border-radius: 0 1rem 1rem 0;
+    
+    
+}
+.info:hover{
+    background-color: #b4fd8c;
+    cursor: pointer;
+    
+}
+
+p{
+    margin-top: 50px;
+}
+
+.fourpictures{
+
+display: flex;
+width: 100%;
+background-color: white;
+height: 180px;
+}
+
+.logo{
+ 
+    display: flex;
+    margin-left: 120px;
+  
+
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: small;
+    margin-top: 40px;
+
+}
+
+.navbar{
+    
+    display: flex;
+color: white;
+justify-content: space-evenly;
+margin-left: 55px;
+
+}
+
+span{
+    display: flex;
+    color: black;
+    border: 1px solid white;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-left: 20px;
+  
+  
+}
+
+
+button{
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    margin-left: 550px;
+    
+}
+
+.fourpictures{
+display: flex;
+justify-content: center;
+margin-left: 98px;
+margin-top: 1.2px;
+text-align: justify;
+
+}
+
+#reptile{
+    border-bottom-right-radius: 1rem;
+}
+#feet{
+    margin-right: 1px;
+}
+#convo{margin-right: 1px;}
+
+#vacuum{
+    margin-right: 1px;
+}
+
+
+
+#text-atlas{
+
+    align-items:center;
+}
+
+
